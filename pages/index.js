@@ -19,30 +19,29 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div class="bg-white-100">
-                <div class="container mx-auto flex flex-col items-center py-12 sm:py-24">
-                    <div class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-10">
-                        <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10">
-                            Welcome to my blog  <nr /> 
-                             <span class="text-indigo-700">By </span>
-                            Gareth Davies
-                        </h1>
-                        <p class="mt-5 sm:mt-10 lg:w-10/12 text-gray-400 font-normal text-center text-sm sm:text-lg">I have always wanted to create a blog talking about coding and my other life interests. So here it is, Gareth Davies's blog. Feel free to subscribe to my mailing list. </p>
-                    </div>
-                    <div class="flex justify-center items-center">
-                      <a href="/blog">
-                        <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 lg:text-xl lg:font-bold  rounded text-white px-4 sm:px-10 border border-indigo-700 py-2 sm:py-4 text-sm">
-                          
-                          Latest Posts</button>
-                          </a>
-                        <a href="/about">
-                        <button class="ml-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 bg-transparent transition duration-150 ease-in-out hover:border-indigo-600 lg:text-xl lg:font-bold  hover:text-indigo-600 rounded border border-indigo-700 text-indigo-700 px-4 sm:px-10 py-2 sm:py-4 text-sm">
-                          
-                          About</button>
-                          </a>
-                    </div>
-                </div>
-            </div>
+      <div className="bg-white-100">
+  <div className="container mx-auto flex flex-col items-center py-12 sm:py-24">
+    <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-10">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10">
+        Welcome to my blog  <nr> 
+          <span className="text-indigo-700">By </span>
+          Gareth Davies
+        </nr></h1>
+      <p className="mt-5 sm:mt-10 lg:w-10/12 text-gray-400 font-normal text-center text-sm sm:text-lg">I have always wanted to create a blog talking about coding and my other life interests. So here it is, Gareth Davies's blog. Feel free to subscribe to my mailing list. </p>
+    </div>
+    <div className="flex justify-center items-center">
+      <a href="/blog">
+        <button className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 lg:text-xl lg:font-bold  rounded text-white px-4 sm:px-10 border border-indigo-700 py-2 sm:py-4 text-sm">
+          Latest Posts</button>
+      </a>
+      <a href="/about">
+        <button className="ml-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 bg-transparent transition duration-150 ease-in-out hover:border-indigo-600 lg:text-xl lg:font-bold  hover:text-indigo-600 rounded border border-indigo-700 text-indigo-700 px-4 sm:px-10 py-2 sm:py-4 text-sm">
+          About</button>
+      </a>
+    </div>
+  </div>
+</div>
+
         
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
